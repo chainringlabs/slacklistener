@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>tgrecojr/renovate-config"],
+  "extends": ["github>chainringlabs/renovate-config"],
   "packageRules": [
     {
       "description": "Keep the Chainguard builder (python:latest-dev) and runtime (python:latest) in lockstep — one PR, never desynced, so the venv copied from the builder always matches the runtime Python.",
