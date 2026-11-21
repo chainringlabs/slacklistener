@@ -30,7 +30,7 @@ channels:
 
       # App attribution headers (optional - shown in OpenRouter console)
       # These defaults are used if not specified:
-      # site_url: "https://github.com/tgrecojr/slacklistener"  # Your app URL for rankings
+      # site_url: "https://github.com/chainringlabs/slacklistener"  # Your app URL for rankings
       # site_name: "slacklistener"  # Your app name shown in OpenRouter console
 
     system_prompt: |
