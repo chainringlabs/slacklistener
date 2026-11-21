@@ -61,7 +61,7 @@ class LLMConfig(BaseModel):
 
     # App attribution headers
     site_url: str = Field(
-        default="https://github.com/tgrecojr/slacklistener",
+        default="https://github.com/chainringlabs/slacklistener",
         description="App URL for OpenRouter attribution (shown in rankings)",
     )
     site_name: str = Field(

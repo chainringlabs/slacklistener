@@ -16,7 +16,7 @@ class OpenRouterClient:
         api_key: str,
         model: str = "anthropic/claude-3.5-sonnet",
         base_url: str = "https://openrouter.ai/api/v1",
-        site_url: str = "https://github.com/tgrecojr/slacklistener",
+        site_url: str = "https://github.com/chainringlabs/slacklistener",
         site_name: str = "slacklistener",
         timeout: Optional[int] = None,
     ):
