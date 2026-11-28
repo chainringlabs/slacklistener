@@ -30,6 +30,10 @@ dev = [
 
 [tool.uv]
 package = false
+# Supply chain: resolve nothing uploaded to PyPI in the last 7 days, so a
+# compromised release has time to be caught and pulled. Applies to `uv lock`
+# and `uv add`; `uv sync --frozen` installs the lockfile as it is.
+exclude-newer = "7 days"
 
 [tool.pytest.ini_options]
 python_files = ["test_*.py"]
