@@ -3,8 +3,11 @@
   "extends": ["github>chainringlabs/renovate-config"],
   "packageRules": [
     {
-      "description": "Keep the Chainguard builder (python:latest-dev) and runtime (python:latest) in lockstep — one PR, never desynced, so the venv copied from the builder always matches the runtime Python.",
-      "matchDepNames": ["cgr.dev/chainguard/python"],
+      "description": "Keep the aged Chainguard builder (base/python-dev) and runtime (base/python) in lockstep — one PR, never desynced, so the venv copied from the builder always matches the runtime Python.",
+      "matchDepNames": [
+        "ghcr.io/chainringlabs/base/python",
+        "ghcr.io/chainringlabs/base/python-dev"
+      ],
       "groupName": "chainguard python base images",
       "groupSlug": "chainguard-python-base"
     }
